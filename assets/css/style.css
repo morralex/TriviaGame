@@ -1,0 +1,10 @@
+body {
+    background-color: maroon;
+}
+.header {
+    font-family: 'Monoton', cursive;
+}
+.jumbotron {
+    color: yellow;
+    background-color: maroon;
+}
