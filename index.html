@@ -21,22 +21,30 @@
             </div>
             <div class="cd-me-6 text-right">
                 <div class="jumbotron jumbotron-fluid">
-                    <h1 class="display-4">Moview Trivia!</h1>
+                    <h1 class="display-4">Movie Trivia!</h1>
                 </div>
             </div>
         </div>
-        <div class="container start-page">
+        <div class="container">
             <div class="row">
-                <div class="jumbotron">
+                <div class="jumbotron" id='start-page'>
                     <h2 class="display-4">Test Your Movie Knowledge...</h2>
                     <p class="lead">Random movie triva, what do you know?</p>
                     <hr class="my-4">
                     <p>Timer gives you _ seconds to answer the list of questions.</p>
                     <p>Quiz ends when you click done, or timer runs out.</p>
                     <p>Good Luck!</p>
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Begin</a>
+                    <a class="btn btn-primary btn-lg" href="#" role="button" id="startBtn">Begin</a>
                   </div>
-
+            </div>
+            <div class="row">
+                <div class="timer"></div>
+            </div>
+            <div class="row">
+                <div id="questions-here"></div>
+            </div>
+            <div class="hidden">
+                <h2>Scores!</h2>
             </div>
         </div>
     </div>
